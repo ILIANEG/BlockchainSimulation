@@ -1,0 +1,30 @@
+{
+  "name": "test-blockchain",
+  "version": "1.0.0",
+  "description": "This is a test blockchain developed as part of blockchain course I have took in past",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "test"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "author": "ILLIA Negovora",
+  "license": "MIT",
+  "dependencies": {
+    "@types/body-parser": "^1.19.1",
+    "body-parser": "^1.19.0",
+    "crypto-js": "^4.1.1",
+    "elliptic": "^6.5.4",
+    "express": "^4.17.1",
+    "secure-random": "^1.1.2",
+    "ts-node": "^10.2.1"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.2",
+    "@types/elliptic": "^6.4.13",
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.7.10"
+  }
+}
